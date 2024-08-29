@@ -1,1 +1,1 @@
-link 1 : https://raw.githack.com/CopyNiinja/HTML-layout/main/responsive-page-html-css/fishingport.html
+link 2 resp-html-landing : https://raw.githack.com/CopyNiinja/HTML-layout/main/responsive-page-html-css/fishingport.html
