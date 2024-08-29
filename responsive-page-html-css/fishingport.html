@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <title>Landing form</title>
+    <link rel="stylesheet" href="./fisihingport.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <div class="logo">
+          <a href="">
+            <img src="./new.svg" alt="logo" />
+          </a>
+          <h3>Fishing <span>Port</span></h3>
+        </div>
+        <nav>
+          <ul>
+            <a href="">
+              <li><i class="fa-solid fa-envelope"></i> contact@mail.com</li>
+            </a>
+
+            <a href="">
+              <li><i class="fa-solid fa-phone"></i> +8801790123456</li>
+            </a>
+
+            <a href="">
+              <li><i class="fa-brands fa-twitter"></i></li>
+            </a>
+          </ul>
+        </nav>
+      </header>
+      <hr />
+      <main>
+        <aside class="main-header">
+          <h1>
+            <span>Coming Soon!</span> Your Ultimate Fishing Adventure Awaits!
+          </h1>
+          <h4>Get Ready to Set Sail on Our Premium Fishing Boat</h4>
+          <p>
+            Excited for an unforgettable day on the water? Our fully-equipped
+            fishing boat is almost ready to launch.Our boat has everything you
+            need for a fishing trip.Use the contact form to tell us your
+            thoughts?
+          </p>
+        </aside>
+        <div class="hid"><h4>Connect with us:</h4></div>
+        <aside class="login-panel">
+          <form>
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input id="name" type="text" required />
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input id="email" type="email" required />
+            </div>
+
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea name="message" id="message"></textarea>
+            </div>
+            <div class="form-group">
+              <button type="submit" class="btn">Submit</button>
+            </div>
+          </form>
+        </aside>
+      </main>
+    </div>
+  </body>
+</html>
