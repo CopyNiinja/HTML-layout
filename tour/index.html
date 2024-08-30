@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en" id="top">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>HTML & CSS Sandbox</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <a href="#top">
+            <li>Home</li>
+          </a>
+          <a href="#1">
+            <li><span>Tour</span> 1</li>
+          </a>
+          <a href="#2">
+            <li><span>Tour</span> 2</li>
+          </a>
+          <a href="#3">
+            <li><span>Tour</span> 3</li>
+          </a>
+          <a href="#4">
+            <li><span>Tour</span> 4</li>
+          </a>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <h2>Welcome</h2>
+      <p>
+        Welcome to the enchanting landscapes of Bangladesh! Whether you're drawn
+        to the sun-kissed shores of <b>Cox's Bazar</b>, the serene hills of
+        <b>Khagrachari</b>, the adventurous terrains of <b>Bandarban</b>, or the
+        lush tea gardens of <b>Sylhet</b>, you're in for an unforgettable
+        experience. Each destination offers its own unique charm, rich culture,
+        and breathtaking beauty. Get ready to explore, relax, and immerse
+        yourself in the wonders of nature and local traditions. We can't wait to
+        share our treasures with you! Safe travels and enjoy your journey.
+      </p>
+      <div id="1">
+        <h2 id="1">Tour 1: Cox's Bazar</h2>
+
+        <!--                     -->
+
+        <div
+          id="carouselExampleControls"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./cox1.webp" class="d-block w-100" alt="..." />
+            </div>
+            <div class="carousel-item">
+              <img src="./cox7.webp" class="d-block w-100" alt="..." />
+            </div>
+            <div class="carousel-item">
+              <img src="./cox6.webp" class="d-block w-100" alt="..." />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+        <p>
+          Cox's Bazar is renowned for its long and beautiful beach, stretching
+          along the Bay of Bengal. Tourists flock to this seaside town to enjoy
+          the golden sands, turquoise waters, and stunning sunsets. The beach is
+          lined with fishing boats, and the gentle waves provide the perfect
+          backdrop for relaxation. Additionally, the nearby hills and islands
+          add to the charm, making Cox's Bazar a must-visit destination.
+        </p>
+      </div>
+      <h2 id="2">Tour 2: Bandarban</h2>
+
+      <div
+        id="carouselExampleControls"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./tour2.webp" class="d-block w-100" alt="..." />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <p>
+        Bandarban is a paradise for nature lovers and adventurers. Surrounded by
+        majestic mountains, waterfalls, and dense forests, it offers a diverse
+        range of activities. From trekking to the top of Nilgiri Hill to
+        exploring the mesmerizing beauty of Boga Lake, Bandarban provides an
+        unforgettable experience. The district is also home to various ethnic
+        communities, each with its own unique culture and traditions.
+      </p>
+      <h2 id="3">Tour 3: Khagrachari</h2>
+
+      <div
+        id="carouselExampleControls"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./tour3.jpg" class="d-block w-100" alt="..." />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <p>
+        Khagrachari, often referred to as the hill queen, is a district nestled
+        in the Chittagong Hill Tracts. The lush greenery, rolling hills, and
+        indigenous culture make it a unique destination. Visitors can explore
+        the tranquil landscapes, visit local villages, and enjoy the serene
+        environment. The beauty of Khagrachari lies in its simplicity and the
+        warmth of its people, offering a peaceful retreat from the bustling city
+        life.
+      </p>
+      <h2 id="4">Tour 4: Sylhet</h2>
+
+      <div
+        id="carouselExampleControls"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./tour4.jpg" class="d-block w-100" alt="..." />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <p>
+        Sylhet is known for its picturesque tea gardens, rolling hills, and lush
+        landscapes. The region is a haven for those seeking tranquility and
+        natural beauty. The tea plantations, with their vibrant green foliage,
+        stretch as far as the eye can see, creating a serene and peaceful
+        atmosphere. Sylhet is also famous for its spiritual significance, with
+        numerous shrines and religious sites attracting pilgrims from all over
+        the country.
+      </p>
+    </main>
+    <div class="footer">
+      <div class="line"></div>
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#"><i class="fab fa-medium-m"></i></a>
+        <a href="#"><i class="fab fa-tiktok"></i></a>
+      </div>
+      <div class="line"></div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
